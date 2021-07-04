@@ -1,0 +1,247 @@
+body{
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+}
+.main-menu a{
+    text-decoration: none;
+    color: #333;
+}
+header{
+    height: 80px;
+    display: flex;
+    padding: 0 80px;
+}
+.header-menu{
+    line-height: 80px;
+}
+.main-logo{
+    width: 20%;
+}
+.main-logo img{
+    width: 150px;
+}
+.main-menu{
+    width: 80%;
+    text-align: right;
+}
+.main-menu li{
+    display: inline;
+    line-height: 80px;
+    text-align: center;
+    padding: 0 20px;
+}
+.top-banner{
+    background: #232577;
+    padding: 50px 0px;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+}
+.top-left-div{
+    padding-left: 100px;
+    margin: auto;
+}
+.top-left-div hr{
+    width: 100px;
+    margin-left: 0;
+}
+.top-left-div h1{
+    color: #fff;
+    font-size: 50px;
+
+}
+.first-img{
+    padding-left: 100px;
+}
+.about-me{
+    padding: 100px 0 100px 100px;
+}
+.second-img{
+    background-color: #eef0f5;
+}
+.second-img img{
+    margin-top: 80px;
+    margin-left: -50px;
+    box-shadow: 0px -3px 36px 14px rgba(0,0,0,0.25);
+}
+.second-about-me{
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.second-about-me h1{
+    font-size: 40px;
+    line-height: 100px;
+    font-weight: 700;
+}
+.second-about-me span{
+    color: #4646C4;
+}
+.second-about-me h2{
+    font-size: 35px;
+    line-height: 49px;
+    font-weight: 700;
+}
+.second-about-me p{
+    font-size: 16px;
+    line-height: 32px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+.second-about-me .prog-bar{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.progress{
+    height: 25px;
+}
+.recent-work{
+    text-align: center;
+}
+.recent-work h1{
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.recent-work span{
+    color: #232577;
+}
+.portfolio ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+.portfolio ul li:hover{
+    background: black;
+    color: white;
+}
+.portfolio-area{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 100px;
+}
+.portfolio-single{
+    width: 25%;
+}
+.portfolio-single h3, .portfolio-single p{
+    text-align: left;
+    padding-left: 30px;
+}
+.portfolio-img{
+    width: 230px;
+    height: 160px;
+    border: 2px solid black;
+}
+.services{
+    padding: 30px 100px;
+}
+.services-area{
+    display: flex;
+    gap: 60px;
+}
+.services-left{
+    text-align: right;
+}
+.services-right{
+    text-align: left;
+}
+.services-left img{
+    width: 100px;
+    padding-bottom: 50px;
+}
+.services-right img{
+    width: 100px;
+    padding-bottom: 50px;
+}
+.services-left h3{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30.6px;
+}
+.services-left p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #666;
+}
+.services h1{
+    text-align: center;
+    padding: 50px 0;
+}
+.services span{
+    color: #232577;
+    font-weight: 700;
+}
+.accordion1 {
+    background-color: rgba(238, 238, 238, 0);
+    color: #444;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+  }
+  .bottom-gap{
+      margin-bottom: 20px;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid rgba(128, 128, 128, 0.452); 
+  }
+  .team-members{
+      padding: 100px;
+      background: #f5f9fb;
+  }
+  .team-members span{
+    color: #232577;
+  }
+  .team-members h1{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .team-area{
+    display: flex;
+    gap: 50px;
+  }
+  .team-item img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .team-item{
+      width: 25%;
+      text-align: center;
+  }
+  .team-item h3{
+      color: #232577;
+      font-weight: 700;
+      padding-top: 30px;
+      font-size: 16px;
+  }
+  .team-item h4{
+      font-size: 16px;
+      padding-bottom: 15px;
+  }
+  .team-item a{
+      padding: 10px 20px;
+      font-size: 16px;
+      border: 1px solid grey;
+      text-decoration: none;
+      color: #333;
+  }
+  .team-item a:hover{
+      background-color: rgb(252, 232, 232);
+  }
