@@ -275,8 +275,60 @@ header{
         #navArea.is-sticky a {
         color:#fff;
         }
-        
-        #navArea.is-sticky .main-logo img {
-            height:40px;
-            }
+.feature-section{
+    background-color: #f5f9fb;
+    padding-top: 50px;
+}
+.feature-section span{
+    color:blue;
+}
+.feature-section h1{
+    font-weight: 700;
+    text-align: center;
+}
+.feature-section h3{
+    text-align: center;
+    line-height: 40px;
+}
+.feature-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 40px 80px;
+}
+.feature-item{
+    width: 15.8%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+.feature-item:hover{
+    background-color: rgb(97, 189, 97);
+    border-radius: 20px;
+}
+.feature-item img{
+    padding-bottom: 20px;
+}
+.work-with{
+    text-align: center;
+    padding: 100px;
+}
+.work-with h1{
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.work-with span{
+    color: blue;
+}
+.work-with-items{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.work-with-item{
+    width: 25%;
+}
         
