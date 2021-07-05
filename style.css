@@ -35,6 +35,7 @@ header{
 .top-banner{
     background: #232577;
     padding: 50px 0px;
+    margin-top: 80px;
 }
 .flexible-container{
     display: flex;
