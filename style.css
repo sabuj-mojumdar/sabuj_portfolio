@@ -20,6 +20,7 @@ header{
 }
 .main-logo img{
     width: 150px;
+    transition: height 0.5s;
 }
 .main-menu{
     width: 80%;
@@ -132,12 +133,15 @@ header{
 }
 .portfolio-single h3, .portfolio-single p{
     text-align: left;
-    padding-left: 30px;
 }
-.portfolio-img{
-    width: 230px;
-    height: 160px;
-    border: 2px solid black;
+
+.scroll{
+    width: 250px;
+    height: 300px;
+    border: 2px solid rgb(223, 144, 26);
+    border-radius: 10px;
+    overflow-x: auto;
+    overflow-y: scroll;
 }
 .services{
     padding: 30px 100px;
@@ -245,3 +249,34 @@ header{
   .team-item a:hover{
       background-color: rgb(252, 232, 232);
   }
+  footer{
+      background: #232578;
+      height: 100px;
+      line-height: 100px;
+      color: #fff;
+      padding-left: 50px;
+      font-size: 20px;
+  }
+
+  #navArea {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: white;
+    transition: background 0.5s;
+    } 
+        #navArea.is-sticky {
+        background: #232578;
+        }
+        
+        #navArea.is-sticky a {
+        color:#fff;
+        }
+        
+        #navArea.is-sticky .main-logo img {
+            height:40px;
+            }
+        
